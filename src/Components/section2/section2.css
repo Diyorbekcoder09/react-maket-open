@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Roboto400';
+    src: url("../../assets/fonts/Roboto400.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto500';
+    src: url("../../assets/fonts/Roboto500.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
+.box {
+    width: 1439px;
+    height: 591px;
+    background: linear-gradient(180deg, #F7F8FA 0%, #EDF1F5 100%);
+    padding: 48px 120px;
+}
+
+.title {
+    font-family: "Roboto500";
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.guruh5 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.card_im {
+    width: 378px;
+    height: 283px;
+    border-radius: 6px;
+}
+
+.card_section_text {
+    font-family: "Roboto400";
+    font-size: 15px;
+    line-height: 17.58px;
+    margin-top: 19px;
+    text-align: left;
+    color: #152739;
+}
+
+.card_section_text2 {
+    font-family: "Roboto500";
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.4038461446762085px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.chitat {
+    font-family: "Roboto400";
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #3CC8AE;
+margin-top: 14px;
+}

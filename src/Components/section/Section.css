@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Roboto400";
+    src: url("../../assets/fonts/Roboto400.ttf");
+}
+
+@font-face {
+    font-family: "Roboto500";
+    src: url("../../assets/fonts/Roboto500.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container3 {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 0px 310px;
+}
+
+.section_text {
+    width: 820px;
+    height: 168px;
+    font-family: "Roboto400";
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.section_title {
+    font-family: "Roboto500";
+    font-size: 26px;
+    line-height: 30.47px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 17px;
+}
+
+.section_text2 {
+    width: 820px;
+    font-family: "Roboto400";
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+.section_text3 {
+    width: 820px;
+    height: 128px;
+    font-family: "Roboto400";
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.section_rasm {
+    margin-top: 45px;
+
+}
+
+.pech {
+    font-family: "Roboto400";
+    font-size: 15px;
+    line-height: 17.58px;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section_card {
+    width: 820px;
+    height: 221px;
+    background: linear-gradient(180deg, #F7F8FA 0%, #EDF1F5 100%);
+    margin-top: 40px;
+    padding: 36px;
+    margin-bottom: 40px;
+}
+
+.section_card_text {
+    font-family: "Roboto500";
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.7777777910232544px;
+    text-align: left;
+    color: #152739;
+}
+
+.section_card_text2 {
+    font-family: "Roboto400";
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #152739;
+    margin-top: 15px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    gap: 16px;
+}
+
+.section_input {
+    width: 431px;
+    height: 52px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 24px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #152739;
+}
+
+.card_btn {
+    width: 159px;
+    height: 52px;
+    border-radius: 3px;
+    background: #3CC8AE;
+    box-shadow: 0px 22px 34px 0px #3CC8AE80;
+    color: white;
+    border: 1px solid transparent;
+    font-family: "Roboto400";
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5;
+}
+
+.card_btn:hover {
+    transition: .5s;
+    background-color: transparent;
+    border: 1px solid #3CC8AE;
+    color: #3CC8AE;
+}
+
+.section_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 370px;
+    height: 65px;
+    border-radius: 6px;
+    box-shadow: 0px 7px 24px 0px #30384029;
+    margin-top: 33px;
+    gap: 20px;
+}
+
+.Twittr {
+    width: 37px;
+    height: 37px;
+    color: #27A4DC;
+}
+
+.facebook {
+    width: 32px;
+    height: 32px;
+    color: #395697;
+}
+
+.Linkedin {
+    width: 32px;
+    height: 32px;
+    color: #0077B6;
+}
+
+.card_chiziq {
+    width: 1px;
+    height: 65px;
+    background-color: #D8D8D8;
+}
+
+.section_link_text {
+    font-family: "Roboto400";
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: center;
+    color: gray;
+}
+
+.instagram {
+    width: 32px;
+    height: 32px;
+    color: #3CC8AE;
+    box-shadow: 0px 22px 34px 0px #3CC8AE80;
+}
+
+.section_link_text1 {
+    font-family: "Roboto500";
+    font-size: 21px;
+    line-height: 24.61px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.guruh {
+    display: flex;
+    align-items: center;
+    gap: 217px;
+}
+
+.pech2 {
+    font-family: "Roboto400";
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #152739;
+}

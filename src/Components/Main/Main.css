@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Container2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 64px 310px;
+}
+
+.main_title {
+    display: flex;
+    align-items: center;
+    color: #3CC8AE;
+    gap: 5px;
+    transition: .5s;
+    cursor: pointer;
+    font-family: "Roboto500";
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.main_title:hover {
+    transition: .5s;
+    color: darkmagenta;
+}
+
+.main_img {
+    margin-top: 32px;
+}
+
+.main_text {
+    font-family: "Roboto500";
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: left;
+    color: #152739;
+    margin-top: 36px;
+}
+
+.main_text2 {
+    font-family: "Roboto500";
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #152739;
+    margin-top: 24px;
+}
+
+.main_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 370px;
+    height: 65px;
+    border-radius: 6px;
+    box-shadow: 0px 7px 24px 0px #30384029;
+    margin-top: 33px;
+    gap: 20px;
+}
+
+.Twittr {
+    width: 37px;
+    height: 37px;
+    color: #27A4DC;
+}
+
+.facebook {
+    width: 32px;
+    height: 32px;
+    color: #395697;
+}
+
+.Linkedin {
+    width: 32px;
+    height: 32px;
+    color: #0077B6;
+}
+
+.card_chiziq {
+    width: 1px;
+    height: 65px;
+    background-color: #D8D8D8;
+}
+
+.main_card_text {
+    font-family: "Roboto500";
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: center;
+}
+
+.main_card_text2 {
+    font-family: "Roboto500";
+    font-size: 21px;
+    line-height: 24.61px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #152739;
+    margin-top: 5px;
+}
+
+.instagram {
+    width: 32px;
+    height: 32px;
+    color: #3CC8AE;
+    box-shadow: 0px 22px 34px 0px #3CC8AE80;
+    border-radius: 5px;
+}
